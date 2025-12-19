@@ -1,0 +1,9 @@
+{
+	"name": "dfDatafactorysneha",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8440e2dd-56ad-42af-9de5-7e8f3b3c0282",
+		"tenantId": "0fd1fc08-f43d-4c1b-bd0f-17a9128a60a4"
+	}
+}
