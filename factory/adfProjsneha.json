@@ -1,0 +1,9 @@
+{
+	"name": "adfProjsneha",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e1834ac6-4690-40bc-a9f4-e35208780a63",
+		"tenantId": "0fd1fc08-f43d-4c1b-bd0f-17a9128a60a4"
+	}
+}

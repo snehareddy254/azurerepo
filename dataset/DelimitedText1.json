@@ -1,20 +1,22 @@
 {
-	"name": "Parquet1",
+	"name": "DelimitedText1",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_dl",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "Parquet",
+		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "orders",
-				"folderPath": "output",
-				"fileSystem": "dest"
+				"folderPath": "sourcefiles",
+				"fileSystem": "sourceadf"
 			},
-			"compressionCodec": "snappy"
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
 		},
 		"schema": []
 	},
